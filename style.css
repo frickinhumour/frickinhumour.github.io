@@ -1,0 +1,140 @@
+*{
+	box-sizing: border-box;
+}
+#img1{
+	background: url("images\\img1.jpg") no-repeat center fixed;
+	height:450px ;
+	background-size: cover;
+}
+body{
+	margin: 0px ;
+	margin-top: 0px;
+	background-color: black;
+}
+
+  #ul
+  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  background-color: black;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.li{
+	float: left;
+	font-family: times new roman;
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 16px 14px;
+	text-align: center;
+	
+}
+.li:hover{
+	background-color: white;
+	color: black;
+	transition: .5s;
+}
+
+#text1{
+	
+  position: absolute; 
+ width: 350px;
+  height: 200px;
+  z-index: 15;
+  top: 20%;
+  left: 58%;
+  margin: -30px 0 0 -150px;
+  text-align: right;
+ 
+	}
+#name{
+
+font-family: pickwick;
+font-size: 70px;
+color: white;
+word-spacing: 0px;
+
+}
+#talents{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 15;
+	margin: -100px 0 0 -100px;
+	text-align: center;
+}
+#list{
+
+background-color: black;
+  
+	font-family: albertus extra bold;
+	font-size: 50px;
+	color: yellow;
+margin: 170px 0 0 -430px;
+}
+#about
+{
+	background-color: black;
+	
+
+}
+
+#me{
+	font-family: montserrat;
+	color: #ffff;
+	font-size: 20px;
+	word-spacing: 2px;
+	line-height: 40px;
+}
+#am{
+	font-size: 80px;
+	font-family: caveat brush;
+	color: white;
+}
+#Achieve{
+	background: url("images\\impotent.jpg") no-repeat center fixed;
+	height:500px ;
+	background-size: cover;
+
+}
+#venue{
+	font-family: caveat brush;
+	font-size: 80px;
+	color: skyblue;
+
+
+}
+#address{
+	font-size: 30px;
+font-family: montserrat;
+color: white;
+font-style: italic;
+
+}
+
+#contact{
+	background-color: black;
+	height: 100px;
+
+}
+.balls{
+	color: white;
+	font-family: montserrat;
+
+}
+#muuh{
+	font-family: caveat brush;
+	font-size: 80px;
+	color: white;
+}
+
+#text2
+{
+font-family: montserrat;
+}
