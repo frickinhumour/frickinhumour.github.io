@@ -56,6 +56,7 @@ body{
 #name{
 
 font-family: pickwick;
+
 font-size: 70px;
 color: white;
 word-spacing: 0px;
@@ -76,7 +77,9 @@ background-color: black;
 	font-family: albertus extra bold;
 	font-size: 50px;
 	color: yellow;
-	margin: auto;
+	
+margin: auto;
+
 }
 #about
 {
@@ -121,6 +124,7 @@ font-style: italic;
 #contact{
 	background-color: black;
 	height: 100px;
+	display: inline;
 
 }
 .balls{
@@ -137,4 +141,9 @@ font-style: italic;
 #text2
 {
 font-family: montserrat;
+}
+
+.videoiframe{
+	display:block;
+	margin: 200px;
 }
